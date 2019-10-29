@@ -13,12 +13,10 @@
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
 bld/
-[Bb]in/
+bin/Debug/
+bin/Release/netcoreapp2.0/
+Properties/PublishProfiles/
 [Oo]bj/
 [Ll]og/
 
@@ -52,7 +50,6 @@ artifacts/
 *.meta
 *.obj
 *.pch
-*.pdb
 *.pgc
 *.pgd
 *.rsp
@@ -64,6 +61,7 @@ artifacts/
 *.tmp_proj
 *.log
 *.vspscc
+*.pubxml
 *.vssscc
 .builds
 *.pidb

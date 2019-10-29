@@ -1,0 +1,38 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "172ef1744a51c9ae9e668528ee1a9ec9b264ca65"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "FunctionSignatureComparer/1.0.0": {
+        "dependencies": {
+          "LibGit2Sharp": "0.9.5"
+        },
+        "runtime": {
+          "FunctionSignatureComparer.dll": {}
+        }
+      },
+      "LibGit2Sharp/0.9.5": {
+        "runtime": {
+          "lib/net35/LibGit2Sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FunctionSignatureComparer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibGit2Sharp/0.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m8QHf1gHj4Ef7E5UQo9u74jgNvhGmMLpR0n1J1Ie/97xAYp+RamaYYum1yIYid918qbmpoBEICEIZc8H9eme2w==",
+      "path": "libgit2sharp/0.9.5",
+      "hashPath": "libgit2sharp.0.9.5.nupkg.sha512"
+    }
+  }
+}
