@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibGit2Sharp" Version="0.9.5" />
+    <PackageReference Include="LibGit2Sharp" Version="0.14.1" />
+    <PackageReference Include="LibGit2Sharp.NativeBinaries" Version="1.0.137" />
   </ItemGroup>
 
 </Project>
