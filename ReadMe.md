@@ -14,15 +14,21 @@ Clone this repository by this command :
 	git clone https://github.com/sepnaZare/FunctionSignatureComparer
 
 ### 2. Run the dll File
-by command line, change your directory to PublicOutput folder that is available in this path of the main repository: ./FunctionSignatureComparer/FunctionSignatureComparer/bin/Release/PublishOutput
+In command line, change your directory to PublicOutput folder that is available in this path of the repository: 
+
+
+	cd ~/FunctionSignatureComparer/FunctionSignatureComparer/bin/Release/PublishOutput
 
 then You can run the FunctionSignatureComparer.dll file with the following command:
 
-	dotnet FunctionSignatureComparer.dll "$gitRepositoriesPath"
 
-The $gitRepositoriesPath is the absolute path of Java-Based git repository that you want to check its situation about adding parameters. This path must have .git directory so be sure that you clone the repository.
+	dotnet FunctionSignatureComparer.dll "$inputGitRepositoriesPath"
 
+The $inputGitRepositoriesPath is the absolute path of Java-Based git repository that you want to check its situation about adding parameters. This path must have .git directory so be sure that you clone the repository.
 
+## Results
+
+The results are saved in the $inputGitRepositoriesPath folder path in Results.csv file.
 
 # Test Cases That Have Been Tested #
 
