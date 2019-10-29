@@ -1,26 +1,24 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "dd284dae71937968419146958284b72a908b5ec2"
+    "signature": "6b41717943edb7b27457e8874ca24a7d4dcf508c"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "FunctionSignatureComparer/1.0.0": {
         "dependencies": {
-          "LibGit2Sharp": "0.14.1",
-          "LibGit2Sharp.NativeBinaries": "1.0.137"
+          "LibGit2Sharp": "0.9.0"
         },
         "runtime": {
           "FunctionSignatureComparer.dll": {}
         }
       },
-      "LibGit2Sharp/0.14.1": {
+      "LibGit2Sharp/0.9.0": {
         "runtime": {
           "lib/net35/LibGit2Sharp.dll": {}
         }
-      },
-      "LibGit2Sharp.NativeBinaries/1.0.137": {}
+      }
     }
   },
   "libraries": {
@@ -29,19 +27,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LibGit2Sharp/0.14.1": {
+    "LibGit2Sharp/0.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IwnRSIwkJ2WWu5pXCFgPg++6HAP21NglEyzBwQXl344E4ZJhu5n8HS7S+qfgr2Jp/+MJggPH/RiRcIjKgwiazA==",
-      "path": "libgit2sharp/0.14.1",
-      "hashPath": "libgit2sharp.0.14.1.nupkg.sha512"
-    },
-    "LibGit2Sharp.NativeBinaries/1.0.137": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-rjjcVYwOGj+1VsIiqq9lEwb2MYoNq+hYTebXc4zheBHFwNyMMwMz6n2mwM+4MAO1jIDm/mtMpm9EDmPQV0zJcw==",
-      "path": "libgit2sharp.nativebinaries/1.0.137",
-      "hashPath": "libgit2sharp.nativebinaries.1.0.137.nupkg.sha512"
+      "sha512": "sha512-ppooXUvUfLejRf4tknBlbWBzGjaQBgrgoGeqaEnt5EiDt/uPw6ailo5wO2ELkRMaHhJwrQVP4rti+dOJsJB20A==",
+      "path": "libgit2sharp/0.9.0",
+      "hashPath": "libgit2sharp.0.9.0.nupkg.sha512"
     }
   }
 }
