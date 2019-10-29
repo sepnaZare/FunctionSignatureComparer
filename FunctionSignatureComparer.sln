@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionSignatureComparer", "FunctionSignatureComparer\FunctionSignatureComparer.csproj", "{AADC14EA-1F1E-4B09-8C52-6BDC6288500B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AADC14EA-1F1E-4B09-8C52-6BDC6288500B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADC14EA-1F1E-4B09-8C52-6BDC6288500B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADC14EA-1F1E-4B09-8C52-6BDC6288500B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADC14EA-1F1E-4B09-8C52-6BDC6288500B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8D38FCE-73F1-4BC9-9B2D-B4D1DB5772D9}
+	EndGlobalSection
+EndGlobal
