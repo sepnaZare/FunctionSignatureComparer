@@ -21,6 +21,7 @@ namespace FunctionSignatureComparer
                 Console.WriteLine($"Starting process ...");
                 Console.WriteLine($".");
                 Console.WriteLine($".");
+                Console.WriteLine(args[0]);
                 var signatureComparer = new FunctionSignatureComparer(args[0], string.Empty);
                 signatureComparer.CheckParameterIsAddedToSignature();
                 Console.WriteLine($"Process Completed ... \n");
@@ -32,8 +33,11 @@ namespace FunctionSignatureComparer
 
         private static CheckResult CheckFolderPathValidation(string path)
         {
-            if (Directory.Exists(path) && Directory.Exists(path + "\\.git"))
+            Console.WriteLine(path + "/.git");
+            if (Directory.Exists(path) && Directory.Exists(path + "/.git"))
                 return CheckResult.Valid;
+            else if(!Directory.Exists(path))
+                Console.WriteLine($"{path} path is not valid.");
             else
                 Console.WriteLine(".git Directory Does Not Exist in This Path.");
 
