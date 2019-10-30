@@ -31,7 +31,7 @@ After buiding successfully, run this command to execute the dll file:
 
 	dotnet ./bin/Debug/netcoreapp3.0/FunctionSignatureComparer.dll "$inputJavaRepositoriesPath"
 
-The $inputGitRepositoriesPath is the absolute path of Java-Based git repository that you want to check its situation about adding parameters. This path must have .git directory so be sure that you clone the repository.
+The $inputGitRepositoriesPath is the absolute path of Java-Based git repository(you have cloned it and have it in your local path) that you want to check its situation about adding parameters. This path must have .git directory so be sure that you clone the repository.
 
 Note: netcoreapp3.0 folder is created when your version of .NetCore is 3.0, otherwise, find the FunctionSignatureComparer.dll that is in subfolder of Debug.
 ## Results
