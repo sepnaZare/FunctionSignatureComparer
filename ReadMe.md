@@ -21,6 +21,7 @@ Run the following command to clean the last output to prepoare it to build:
 	dotnet clean
 	
 then run this command to build the project:
+	
 	dotnet build 
 
 after running build command, you get the message "Build Succeeded" and it shows a path that contains FunctionSignatureComparer.dll. It is usually created at ./bin/Debug/netcoreapp3.0/FunctionSignatureComparer.dll.
