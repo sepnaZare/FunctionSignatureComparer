@@ -16,9 +16,7 @@ Clone this repository by this command :
 ### 2. Build the project
 In command line, change your directory to ./FunctionSignatureComparer/FunctionSignatureComparer folder that has FunctionSignatureComparer.csproj: 
 
-Run the following command to clean the last output to prepoare it to build:
-	
-	dotnet clean
+	cd ./FunctionSignatureComparer/FunctionSignatureComparer
 	
 then run this command to build the project:
 	
