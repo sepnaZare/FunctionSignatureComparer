@@ -1,22 +1,85 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "6b41717943edb7b27457e8874ca24a7d4dcf508c"
+    "signature": "7ec8d11fbf204b4717af5aebaf6675d5eee0a25e"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "FunctionSignatureComparer/1.0.0": {
         "dependencies": {
-          "LibGit2Sharp": "0.9.0"
+          "LibGit2Sharp": "0.26.1"
         },
         "runtime": {
           "FunctionSignatureComparer.dll": {}
         }
       },
-      "LibGit2Sharp/0.9.0": {
+      "LibGit2Sharp/0.26.1": {
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "2.0.289"
+        },
         "runtime": {
-          "lib/net35/LibGit2Sharp.dll": {}
+          "lib/netstandard2.0/LibGit2Sharp.dll": {}
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.289": {
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libgit2-7ce88e6.so": {
+            "rid": "alpine-x64",
+            "assetType": "native"
+          },
+          "runtimes/alpine.3.9-x64/native/libgit2-7ce88e6.so": {
+            "rid": "alpine.3.9-x64",
+            "assetType": "native"
+          },
+          "runtimes/debian-arm64/native/libgit2-7ce88e6.so": {
+            "rid": "debian-arm64",
+            "assetType": "native"
+          },
+          "runtimes/debian.9-x64/native/libgit2-7ce88e6.so": {
+            "rid": "debian.9-x64",
+            "assetType": "native"
+          },
+          "runtimes/fedora-x64/native/libgit2-7ce88e6.so": {
+            "rid": "fedora-x64",
+            "assetType": "native"
+          },
+          "runtimes/linux-x64/native/libgit2-7ce88e6.so": {
+            "rid": "linux-x64",
+            "assetType": "native"
+          },
+          "runtimes/osx/native/libgit2-7ce88e6.dylib": {
+            "rid": "osx",
+            "assetType": "native"
+          },
+          "runtimes/rhel-x64/native/libgit2-7ce88e6.so": {
+            "rid": "rhel-x64",
+            "assetType": "native"
+          },
+          "runtimes/ubuntu.16.04-arm64/native/libgit2-7ce88e6.so": {
+            "rid": "ubuntu.16.04-arm64",
+            "assetType": "native"
+          },
+          "runtimes/ubuntu.18.04-x64/native/libgit2-7ce88e6.so": {
+            "rid": "ubuntu.18.04-x64",
+            "assetType": "native"
+          },
+          "runtimes/win-x64/native/git2-7ce88e6.dll": {
+            "rid": "win-x64",
+            "assetType": "native"
+          },
+          "runtimes/win-x64/native/git2-7ce88e6.pdb": {
+            "rid": "win-x64",
+            "assetType": "native"
+          },
+          "runtimes/win-x86/native/git2-7ce88e6.dll": {
+            "rid": "win-x86",
+            "assetType": "native"
+          },
+          "runtimes/win-x86/native/git2-7ce88e6.pdb": {
+            "rid": "win-x86",
+            "assetType": "native"
+          }
         }
       }
     }
@@ -27,12 +90,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LibGit2Sharp/0.9.0": {
+    "LibGit2Sharp/0.26.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ppooXUvUfLejRf4tknBlbWBzGjaQBgrgoGeqaEnt5EiDt/uPw6ailo5wO2ELkRMaHhJwrQVP4rti+dOJsJB20A==",
-      "path": "libgit2sharp/0.9.0",
-      "hashPath": "libgit2sharp.0.9.0.nupkg.sha512"
+      "sha512": "sha512-rm7zVMDOFQ2P6B8zTyRWbJDS4xWGzgB/TsxDwCC5UBkabU/Grw0efRMEFXimFIaLOfiyGyojcJvA3Lx3WJMwvA==",
+      "path": "libgit2sharp/0.26.1",
+      "hashPath": "libgit2sharp.0.26.1.nupkg.sha512"
+    },
+    "LibGit2Sharp.NativeBinaries/2.0.289": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WaSnfy+bILeyx7hvc7+M5Cveq/l+AEcIGGPRwwbcJvBimiHmrbw9IHJi338npWmy3HIvVJ+JHZ62hfY2iAUnKA==",
+      "path": "libgit2sharp.nativebinaries/2.0.289",
+      "hashPath": "libgit2sharp.nativebinaries.2.0.289.nupkg.sha512"
     }
   }
 }

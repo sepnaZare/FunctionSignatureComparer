@@ -43,9 +43,9 @@ namespace FunctionSignatureComparer
                         continue;
                     try
                     {
-                        TreeChanges treeChanges = repo.Diff.Compare(parentCommitTree, commitTree);
+                        Patch treeChanges = repo.Diff.Compare<Patch>(parentCommitTree, commitTree);
 
-                        foreach (TreeEntryChanges treeEntryChanges in treeChanges)
+                        foreach (PatchEntryChanges treeEntryChanges in treeChanges)
                         {
                             var changesInFile = Regex.Split(treeEntryChanges.Patch, @"\n@@");
                             foreach (var fileChangedSection in changesInFile)
