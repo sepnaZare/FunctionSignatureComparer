@@ -1,4 +1,5 @@
-﻿using LibGit2Sharp;
+﻿
+using LibGit2Sharp;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,7 +27,7 @@ namespace FunctionSignatureComparer
 
         public void CheckParameterIsAddedToSignature()
         {
-            var resultFilePath = string.IsNullOrEmpty(ResultFilePath) ? $"{GitRepositoryPath}\\Result.csv" : ResultFilePath;
+            var resultFilePath = string.IsNullOrEmpty(ResultFilePath) ? $"{GitRepositoryPath}/Result.csv" : ResultFilePath;
             StringWriter finalResult = new StringWriter();
 
 
@@ -72,7 +73,7 @@ namespace FunctionSignatureComparer
                                         continue;
                                     }
                                 }
-                                catch (Exception e)
+                                catch
                                 {
                                     continue;
                                 }

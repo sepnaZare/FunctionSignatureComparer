@@ -5,7 +5,7 @@ A Tool for showing commits of a java-based git repository that add parameters to
 ## System requirements
 * Linux or macOS or Windows
 * git
-* .Net Core 2.0.3
+* .Net Core 3.0.0
 
 ## How to run
 
