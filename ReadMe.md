@@ -14,7 +14,7 @@ Clone this repository by this command :
 	git clone https://github.com/sepnaZare/FunctionSignatureComparer
 
 ### 2. Build the project
-In command line, change your directory to FunctionSignatureComparer/FunctionSignatureComparer folder that has FunctionSignatureComparer.csproj: 
+In command line, change your directory to ./FunctionSignatureComparer/FunctionSignatureComparer folder that has FunctionSignatureComparer.csproj: 
 
 Run the following command to clean the last output to prepoare it to build:
 	
@@ -23,13 +23,14 @@ Run the following command to clean the last output to prepoare it to build:
 then run this command to build the project:
 	dotnet build 
 
-after running build command, you get the message "Build Succeeded" and it shows a path that contains FunctionSignatureComparer.dll. It is usually created at ./FunctionSignatureComparer/bin/Debug/netcoreapp3.0/FunctionSignatureComparer.dll.
+after running build command, you get the message "Build Succeeded" and it shows a path that contains FunctionSignatureComparer.dll. It is usually created at ./bin/Debug/netcoreapp3.0/FunctionSignatureComparer.dll.
+
 
 ### 3. Run the FunctionSignatureComparer.dll file:
 
 After buiding successfully, run this command to execute the dll file:
 
-	dotnet ./FunctionSignatureComparer/bin/Debug/netcoreapp3.0/FunctionSignatureComparer.dll "$inputJavaRepositoriesPath"
+	dotnet ./bin/Debug/netcoreapp3.0/FunctionSignatureComparer.dll "$inputJavaRepositoriesPath"
 
 The $inputGitRepositoriesPath is the absolute path of Java-Based git repository that you want to check its situation about adding parameters. This path must have .git directory so be sure that you clone the repository.
 

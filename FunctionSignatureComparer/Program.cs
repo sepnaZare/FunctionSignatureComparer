@@ -21,7 +21,6 @@ namespace FunctionSignatureComparer
                 Console.WriteLine($"Starting process ...");
                 Console.WriteLine($".");
                 Console.WriteLine($".");
-                Console.WriteLine(args[0]);
                 var signatureComparer = new FunctionSignatureComparer(args[0], string.Empty);
                 signatureComparer.CheckParameterIsAddedToSignature();
                 Console.WriteLine($"Process Completed ... \n");
